@@ -1,0 +1,35 @@
+Emotion-Recognition-from-Speech/
+│
+├── data/
+│   └── RAVDESS/             
+│
+├── notebooks/
+│   └── EDA.ipynb              
+│
+├── src/
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── features.py
+│   ├── augment.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── predict.py
+│
+├── models/
+│   └── best_model.h5
+│
+├── outputs/
+│   ├── confusion_matrix.png
+│   ├── accuracy_curve.png
+│   ├── loss_curve.png
+│   └── sample_predictions.png
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── LICENSE
+└── main.py
